@@ -12,7 +12,7 @@ const cards = [
         sub_header: "Air Jordan 11 Retro Low OG",
     },
     {
-        img: "src/public/nike_Image/nke_images/fitness.jpg",
+        img: "/nike_Image/nke_images/fitness.jpg",
         header: "Make Your Move",
         sub_header: "Fitness Essentials",
     },
