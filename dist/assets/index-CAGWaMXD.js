@@ -1666,7 +1666,7 @@
             />
         </div>
     </div>
-`;B(document.querySelector(".shoe-carousel"));const x=document.querySelector(".card-container"),I=[{img:"./src/public/nike_Image/nke_images/balck_color_nike.jpeg",header:"Latest From Jordan",sub_header:"Air Jordan 11 Retro Low OG"},{img:"src/public/nike_Image/nke_images/fitness.jpg",header:"Make Your Move",sub_header:"Fitness Essentials"},{img:"src/public/nike_Image/nke_images/running.jpg",header:"Nike Trails GR11 Pack",sub_header:"Featuring the Zegama 2"},{img:"src/public/nike_Image/nke_images/golfman.jpg",header:"Brooks Koepka's Picks",sub_header:"AF1s, Golf Shoes & More"}];I.forEach(e=>{x.innerHTML+=`
+`;B(document.querySelector(".shoe-carousel"));const x=document.querySelector(".card-container"),I=[{img:"/Users/anbschool0016/Desktop/nike-test/Deploy_Nike_page/src/public/nike_Image/nke_images/nike_hiking.jpeg",header:"Latest From Jordan",sub_header:"Air Jordan 11 Retro Low OG"},{img:"src/public/nike_Image/nke_images/fitness.jpg",header:"Make Your Move",sub_header:"Fitness Essentials"},{img:"src/public/nike_Image/nke_images/running.jpg",header:"Nike Trails GR11 Pack",sub_header:"Featuring the Zegama 2"},{img:"src/public/nike_Image/nke_images/golfman.jpg",header:"Brooks Koepka's Picks",sub_header:"AF1s, Golf Shoes & More"}];I.forEach(e=>{x.innerHTML+=`
         <div class="column">
             <div class="overlay">
                 <p>${e.header}</p>
@@ -2472,7 +2472,7 @@
 <!--  /*---------- end footer bar section ----------*/ -->
 
 
-`;F(document.querySelector("footer"));const J=document.getElementsByClassName("new-this-week")[0],$=document.getElementsByClassName("just-img")[0],D=[{header:"NEW THIS WEEK",first_button:"Shop Men's New Arrivals",second_button:"Shop Women's New Arrivals"}],G=[{img_desktop:"src/public/nike_Image/nke_images/ball.png",img_mobile:"src/public/nike_Image/nke_images/manstanding.png"}];D.forEach(e=>{J.innerHTML+=`
+`;F(document.querySelector("footer"));const J=document.getElementsByClassName("new-this-week")[0],D=document.getElementsByClassName("just-img")[0],$=[{header:"NEW THIS WEEK",first_button:"Shop Men's New Arrivals",second_button:"Shop Women's New Arrivals"}],G=[{img_desktop:"src/public/nike_Image/nke_images/ball.png",img_mobile:"src/public/nike_Image/nke_images/manstanding.png"}];$.forEach(e=>{J.innerHTML+=`
         <h1 id="new-this-week">
             ${e.header}
         </h1>
@@ -2484,7 +2484,7 @@
                 ${e.second_button}
             </button>
         </div>
-    `});G.forEach(e=>{$.innerHTML+=`
+    `});G.forEach(e=>{D.innerHTML+=`
 		<img
 			src="${e.img_desktop}"
 			id="man_standing_desktop"

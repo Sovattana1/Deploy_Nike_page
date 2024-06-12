@@ -7,7 +7,7 @@ const cardContent = document.querySelector('.card-container');
 // Array of card objects containing image paths, headers, and sub-headers
 const cards = [
     {
-        img: "./src/public/nike_Image/nke_images/balck_color_nike.jpeg",
+        img: "/Users/anbschool0016/Desktop/nike-test/Deploy_Nike_page/src/public/nike_Image/nke_images/nike_hiking.jpeg",
         header: "Latest From Jordan",
         sub_header: "Air Jordan 11 Retro Low OG",
     },
