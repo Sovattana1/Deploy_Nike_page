@@ -1666,7 +1666,7 @@
             />
         </div>
     </div>
-`;B(document.querySelector(".shoe-carousel"));const x=document.querySelector(".card-container"),I=[{img:"/src/public/nike_Image/nke_images/balck_color_nike.jpeg",header:"Latest From Jordan",sub_header:"Air Jordan 11 Retro Low OG"},{img:"src/public/nike_Image/nke_images/fitness.jpg",header:"Make Your Move",sub_header:"Fitness Essentials"},{img:"src/public/nike_Image/nke_images/running.jpg",header:"Nike Trails GR11 Pack",sub_header:"Featuring the Zegama 2"},{img:"src/public/nike_Image/nke_images/golfman.jpg",header:"Brooks Koepka's Picks",sub_header:"AF1s, Golf Shoes & More"}];I.forEach(e=>{x.innerHTML+=`
+`;B(document.querySelector(".shoe-carousel"));const x=document.querySelector(".card-container"),I=[{img:"./src/public/nike_Image/nke_images/balck_color_nike.jpeg",header:"Latest From Jordan",sub_header:"Air Jordan 11 Retro Low OG"},{img:"src/public/nike_Image/nke_images/fitness.jpg",header:"Make Your Move",sub_header:"Fitness Essentials"},{img:"src/public/nike_Image/nke_images/running.jpg",header:"Nike Trails GR11 Pack",sub_header:"Featuring the Zegama 2"},{img:"src/public/nike_Image/nke_images/golfman.jpg",header:"Brooks Koepka's Picks",sub_header:"AF1s, Golf Shoes & More"}];I.forEach(e=>{x.innerHTML+=`
         <div class="column">
             <div class="overlay">
                 <p>${e.header}</p>
