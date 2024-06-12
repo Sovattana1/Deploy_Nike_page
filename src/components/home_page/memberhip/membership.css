@@ -1,0 +1,64 @@
+
+
+
+
+
+#nike-membership{
+		margin-left: 14.5%;
+		margin-right: 14.5%;
+		transition: margin 0.5s ease;
+		font-weight: 900;
+}
+
+@media (max-width : 900px){
+		#nike-membership{
+				margin-left: 15px;
+		}
+}
+
+
+
+
+
+
+
+/* nike membership shop */
+.nike-container{
+		max-width: 1840px;
+		margin:0 auto;
+		overflow: hidden;
+		position: relative;
+		display: flex;
+}
+.row-nike-membership{
+		display: flex;
+		gap: 20px;
+		margin-left:1% ;
+}
+
+.column-nike-membership img{
+		height: 750px;
+		width: 590px;
+}
+.overlay-nike-membership-text{
+		position: absolute;
+		color: #f6f6f6;
+		bottom: 30px;
+		padding-left: 30px;
+}
+	.nike-container{
+				overflow: auto;
+				display: flex;
+				padding-left: 20px;
+				white-space: nowrap;
+		}
+@media (max-width:768px){
+		
+		section {
+				overflow: hidden;
+		}
+		.column-nike-membership img {
+			height: 550px;
+		width: 390px;
+		}
+}

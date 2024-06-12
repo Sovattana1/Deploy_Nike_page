@@ -1,0 +1,46 @@
+
+    /* New this week section */
+		#new-this-week {
+			display: flex;
+			justify-content: center;
+			font-weight: 900;
+		
+		}
+		/* shop button color black  */
+		#new-feed-shop-button {
+			background-color: black; color:white;
+			border-radius: 28px;
+		}
+		
+		#new-feed-shop-button:hover{
+			background-color: gray;
+		
+		
+		}
+		@media (max-width:768px){
+			.shop-button-for-new-feed{
+					flex-direction: column;
+					align-items: center;
+			}
+		}
+		
+		
+		.shop-button-for-new-feed {
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+		}
+		
+		
+		
+		
+		/* image section */
+		
+		.just-img {
+			margin-top: 20px;
+		}
+	.just-img img{
+
+		width: 100%;
+	}
+		

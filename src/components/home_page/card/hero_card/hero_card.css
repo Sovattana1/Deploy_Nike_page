@@ -1,0 +1,66 @@
+/* General card styling */
+.card {
+	border: none; /* Remove border from all elements with the class 'card' */
+}
+
+/* Styling for the element with ID 'jordan' */
+#jordan {
+	font-weight: 900; /* Bold text */
+	font-size: 40px; /* Large font size */
+	display: flex; /* Use flexbox for layout */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+}
+
+/* Responsive styling for screens with a max width of 768px */
+@media (max-width: 768px) {
+	#jordan {
+			width: 70%; /* Reduce width to 70% */
+	}
+}
+
+/* Styling for the element with ID 'exclusive' */
+#exclusive {
+	display: flex; /* Use flexbox for layout */
+	justify-content: center; /* Center horizontally */
+	font-weight: 500; /* Medium bold text */
+}
+
+/* Styling for buttons with the class 'btn-dark' */
+.btn-dark {
+	border-radius: 50px; /* Rounded corners */
+	display: flex; /* Use flexbox for layout */
+	justify-content: center; /* Center horizontally */
+	margin: auto; /* Center horizontally within parent */
+}
+
+/* Styling for the element with ID 'grit-shop-btn' */
+#grit-shop-btn {
+	border-radius: 28px; /* Rounded corners */
+}
+
+/* Responsive styling for screens with a max width of 768px */
+@media (max-width: 768px) {
+	.column {
+			flex: 100%; /* Make columns take full width */
+	}
+}
+
+/* Responsive styling for desktop and mobile view */
+@media (max-width: 768px) {
+	#card-img-top-desktop, #man_standing_desktop {
+			display: none; /* Hide these elements on mobile */
+	}
+}
+
+@media (min-width: 768px) {
+	#card-img-top-mobile, #man_standing {
+			display: none; /* Hide these elements on desktop */
+	}
+}
+
+/* Margin-top and font-size for the class 'grid-paragrapgh-1-section-2' */
+.grid-paragrapgh-1-section-2 {
+	margin-top: 500px; /* Large top margin */
+	font-size: 30px; /* Large font size */
+}

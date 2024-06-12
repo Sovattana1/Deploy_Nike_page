@@ -1,0 +1,59 @@
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative; /* Positions the container relative to its normal position */
+	padding-top: 20px;
+}
+
+/* Style for each column, representing a card */
+.column {
+	flex: 0 1 calc(50% - 0px); /* Each card takes 50% of the container width minus margin */
+	position: relative; /* Allows for absolute positioning of the overlay */
+}
+
+/* Ensure images take full width of the column and add pointer cursor */
+.column img {
+	width: 100%; /* Image takes full width of its parent */
+	display: block; /* Ensures image is displayed as a block element */
+	cursor: pointer; /* Changes cursor to pointer when hovering over image */
+}
+
+/* Overlay that contains text and button, positioned absolutely within the column */
+.overlay {
+	position: absolute; /* Positions overlay absolutely within its relatively positioned parent */
+	bottom: 10px; /* Positions overlay 10px from the bottom of the column */
+	color: white; /* Text color is white */
+	display: flex; /* Uses flexbox for layout */
+	flex-direction: column; /* Stacks children vertically */
+	justify-content: start; /* Aligns children at the start of the overlay */
+	align-items: start; /* Aligns children to the start (left) of the overlay */
+	padding: 50px; /* Adds padding around the content */
+}
+
+/* General styling for paragraphs within the overlay */
+.overlay p {
+	margin: 5px; /* Adds 5px margin around paragraphs */
+}
+
+/* Default font size for paragraphs in the card section */
+p {
+	font-size: 17px; /* Sets the font size to 17px */
+}
+
+/* Styling for paragraphs with class 'big-paragraph' */
+.big-paragraph {
+	font-size: 24px; /* Increases font size to 24px */
+	font-weight: 400; /* Sets font weight to 400 */
+}
+
+/* Styling for the button in the overlay */
+#grit-shop-btn {
+	border-radius: 28px; /* Rounds the corners of the button */
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+	.column {
+			flex: 100%; /* Columns take full width on small screens */
+	}
+}

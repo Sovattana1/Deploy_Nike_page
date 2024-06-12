@@ -1,0 +1,94 @@
+
+/* main carousel  position*/
+/* SHOP BY CLASSICS */
+
+#shop-by-classics {
+	margin-left: 5%;
+	font-weight: 900;
+	margin-right: 14.5%;
+	transition: margin 0.5s ease;
+	width: 400px;
+}
+
+
+@media (max-width : 900px){
+	#shop-by-classics{
+			margin-left: 15px ;
+	}
+}
+
+.shoe-carousel{
+	max-width: 1840px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	margin-bottom: 50px ;
+	margin-top: 50px;
+}
+.carousel-img{
+	display: flex;
+	transition: transform 0.3s ease-out;    
+	
+}
+.carousel-img img{
+	margin-left: 20px;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	cursor: pointer;
+}
+/* horizantal scrollbar for shoe carousel under 768px */
+@media (max-width:768px){
+.carousel-img{
+	/* overflow-x: hidden; */
+	overflow-y: auto;
+	white-space: nowrap;
+}
+}
+
+
+
+/* button for shoe carousel */
+.left-button,
+.right-button {
+position: absolute; /* Position the buttons absolutely */
+top: 50%; /* Align buttons vertically in the middle of the carousel */
+transform: translateY(-50%); /* Adjust to center the buttons vertically */
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+background-color: white;
+padding: 10px;
+border-radius: 50%;
+z-index: 1; /* Ensure buttons appear on top of other content */
+margin: 0 100px 0 100px;
+height: 35px;
+}
+
+.left-button {
+left: 0; /* Position the left button on the left side */
+transform: rotate(180deg);
+}
+
+.right-button {
+right: 0; /* Position the right button on the right side */
+}
+/* hide left and right button under 768px */
+@media (max-width:768px){
+.left-button,.right-button{
+	display: none;
+}
+}   
+/*  make the slider reponsive */
+@media screen and (max-width: 900px) {
+	.carousel img {
+			width: calc(100%/2);
+	}
+}
+@media screen and (max-width: 600px) {
+	.carousel img {
+			width: 100%;
+	}
+}  
